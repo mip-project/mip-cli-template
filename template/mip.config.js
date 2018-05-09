@@ -17,5 +17,12 @@ module.exports = {
      *
      * @type {boolean}
      */
-    livereload: true
+    livereload: true,
+
+    /**
+     * server 启动自动打开页面
+     *
+     * @type {boolean}
+     */
+    autoOpenBrowser: true,
 };
