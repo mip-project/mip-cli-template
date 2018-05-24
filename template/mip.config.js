@@ -25,13 +25,6 @@ module.exports = {
          *
          * @type {string}
          */
-        autoopen: '/test/index.html',
-
-        /**
-         * mip cli config 文件路径
-         *
-         * @type {string}
-         */
-        config: 'mip.config.js'
+        autoopen: '/test/index.html'
     }
 };
