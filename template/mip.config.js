@@ -21,9 +21,9 @@ module.exports = {
         livereload: true,
 
         /**
-         * server 启动自动打开页面
+         * server 启动自动打开页面，false 为关闭
          *
-         * @type {string}
+         * @type {string|boolean}
          */
         autoopen: '/example/index.html'
     }
