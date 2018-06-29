@@ -5,7 +5,12 @@
   "scripts": {
     "dev": "mip2 dev",
     "build": "mip2 build",
-    "lint": "eslint --ext .js,.vue **/* --ignore-pattern dist"
+    "lint": "npm run lint:js && npm run lint:style",
+    "lint:js": "eslint --ext .js,.vue,.md **/* --ignore-pattern dist",
+    "lint:style": "stylelint **/*.{vue,css,less,md}",
+    "fix": "npm run fix:js && npm run fix:style",
+    "fix:js": "eslint --ext .js,.vue,.md **/* --fix  --ignore-pattern dist",
+    "fix:style": "stylelint **/*.{vue,css,less,md} --fix"
   },
   "author": "{{ author }}",
   "dependencies": {},
