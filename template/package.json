@@ -6,10 +6,10 @@
     "dev": "mip2 dev",
     "build": "mip2 build",
     "lint": "npm run lint:js && npm run lint:style",
-    "lint:js": "eslint {**/*,**}.{vue,js}",
+    "lint:js": "eslint {**/*,**}.{vue,js,md}",
     "lint:style": "stylelint {**/*,**}.{vue,css,less,md}",
     "fix": "npm run fix:js && npm run fix:style",
-    "fix:js": "eslint {**/*,**}.{vue,js} --fix",
+    "fix:js": "eslint {**/*,**}.{vue,js,md} --fix",
     "fix:style": "stylelint {**/*,**}.{vue,css,less,md} --fix"
   },
   "author": "{{ author }}",
