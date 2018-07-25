@@ -21,9 +21,11 @@ module.exports = {
 
     /**
      * server 启动自动打开页面，false 为关闭
+     * 如:
+     * autoopen: '/example/index.html'
      *
      * @type {string|boolean}
      */
-    autoopen: '/example/index.html'
+    autoopen: false
   }
 }
