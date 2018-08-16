@@ -4,7 +4,7 @@
 ----|----
 类型|
 支持布局|
-所需脚本| [https://c.mipcdn.com/extensions/platform/v2/{{name}}/{{ compName }}/{{ compName }}.js](https://c.mipcdn.com/extensions/platform/v2/{{name}}/{{ compName }}/{{ compName }}.js)
+所需脚本| {% if: {{name}} === 'mip2-extensions' %}[https://c.mipcdn.com/static/v2/{{ compName }}/{{ compName }}.js](https://c.mipcdn.com/static/v2/{{ compName }}/{{ compName }}.js){% else %}[https://c.mipcdn.com/extensions/platform/v2/{{name}}/{{ compName }}/{{ compName }}.js](https://c.mipcdn.com/extensions/platform/v2/{{name}}/{{ compName }}/{{ compName }}.js){% /if %}
 
 ## 说明
 
